@@ -1,0 +1,13 @@
+version 0.1.0
+
+import? _ZN10QPdfEngine5beginEP12QPaintDevice
+override _ZN10QPdfEngine5beginEP12QPaintDevice
+
+import? _ZN10QPdfEngine12drawTextItemERK7QPointFRK9QTextItem
+override _ZN10QPdfEngine12drawTextItemERK7QPointFRK9QTextItem
+
+import? _ZN17QPdfEnginePrivate9embedFontEP11QFontSubset
+override _ZN17QPdfEnginePrivate9embedFontEP11QFontSubset
+
+import _ZN17QPdfEnginePrivate12addXrefEntryEib
+import _ZN17QPdfEnginePrivate7xprintfEPKcz
